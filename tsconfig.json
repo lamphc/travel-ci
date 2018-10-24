@@ -23,14 +23,16 @@
     "strictNullChecks": true,
     "target": "es2016",
     "lib": [
-      "es2017"
+      "es2017",
+      "dom",
+      "es2015.promise"
     ],
     "baseUrl": "",
     "typeRoots": [
       "./node_modules/@types"
     ],
     "types": [
-      "node"
+      // "node"
     ],
   },
   "bazelOptions": {
