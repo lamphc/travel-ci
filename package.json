@@ -7,6 +7,7 @@
     "url": "https://github.com/lamphc/travel-ci.git"
   },
   "main": "index.js",
+  "builders": "builder.json",
   "scripts": {
     "travis-deploy-once": "travis-deploy-once",
     "semantic-release": "semantic-release",

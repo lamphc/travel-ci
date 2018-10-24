@@ -1,0 +1,9 @@
+{
+  "builders": {
+    "build": {
+      "class": "./src/index.ts",
+      "schema": "./src/schema.json",
+      "description": "Extensible Builder"
+    }
+  }
+}

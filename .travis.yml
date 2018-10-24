@@ -1,3 +1,4 @@
+# 持续集成测试
 language: node_js
 cache:
   directories:
@@ -9,6 +10,9 @@ node_js:
   - '9'
   - '8'
   - '6'
+#运行的脚本命令
+script:
+  - npm run build  
 after_success:
   - npm run travis-deploy-once "npm run semantic-release"
 branches:
